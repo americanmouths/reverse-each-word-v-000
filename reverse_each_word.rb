@@ -7,6 +7,6 @@ end
   return new_sentence.join(" ")
   sentence.collect do |reversed|
     sentence << reversed.reversed
-    sentence
   end
+  sentence
 end
